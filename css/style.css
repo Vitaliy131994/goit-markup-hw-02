@@ -14,6 +14,10 @@ footer {
   border: 1px solid;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .header {
   background: var(--back-header);
 }
@@ -22,17 +26,25 @@ footer {
   background: var(--back-zakaz);
   color: var(--white-text);
   text-decoration: none;
-  list-style-type: none;
+}
+
+.zakaz-1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 
 .usluga {
   background: var(--back-usluga);
   color: var(--white-text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .logo {
   color: var(--black-text);
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .logo1 {
@@ -42,7 +54,8 @@ footer {
 .nav {
   text-decoration: none;
   color: var(--black-text);
-  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .nav:hover,
@@ -53,10 +66,44 @@ footer {
 .nav-nav {
   text-decoration: none;
   color: var(--grey-text);
-  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .nav-nav:hover,
 .nav-nav:focus {
   color: var(--blue-text);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.zagolovok-3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.text-3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--grey-text);
+}
+
+.zagolovok-2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.comanda {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.footer {
+  background: var(--back-zakaz);
+}
+
+.adress {
+  color: var(--white-text);
 }
